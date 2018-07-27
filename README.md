@@ -26,8 +26,6 @@ As seguintes extensões devem estar carregadas no PHP:
 - MBString extension
 - OpenSSL extension
 - Intl extension
-- ICU version
-- ICU Data version
 - Fileinfo extension
 - DOM extension
 - IPv6 support
@@ -36,12 +34,15 @@ As seguintes extensões devem estar carregadas no PHP:
 - Memcache extension
 - GD PHP extension with FreeType support
 - ImageMagick PHP extension with PNG support
-- PHP allow url include
-- PHP mail SMTP
 
 Configuração expecifica no php.ini
 
-- "expose_php" deve estar desativado
+- `expose_php` deve estar desativado
+- `allow_url_include` deve estar desativado
+
+Versão do biblioteca da extensão intl:
+- ICU versão 49.0 ou superior
+- ICU Data versão 49.1 ou superior
 
 ### INSTALAÇÃO ###
 
