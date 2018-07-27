@@ -28,7 +28,6 @@ As seguintes extensões devem estar carregadas no PHP:
 - Intl extension
 - Fileinfo extension
 - DOM extension
-- IPv6 support
 - PDO extension
 - PDO MySQL extension
 - Memcache extension
