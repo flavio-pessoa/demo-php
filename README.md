@@ -3,12 +3,15 @@
 ### Descrição ###
 
 DEMO é um sistema de controle de custos que auxilia a empresa a controlar questões como:
-Cadastro de funcionarios e departamentos atuante
 
-Cadastro de departamentos
+- **Cadastro de funcionarios e departamentos atuante**  
+O usuario tem o poder para cadastrar novos funcionarios e em quais departamentos este funcionario ira trabalhar
 
-Gerenciamento de movimentações
+- **Cadastro de departamentos**  
+O usuario tem o poder para cadastrar os departamentos da empresa
 
+- **Gerenciamento de movimentações**  
+O usuario tem o poder de definir as movimentações de cada departamento, ou seja, seus custos
 
 ### Requisitos ###
 
@@ -40,6 +43,7 @@ Configuração expecifica no php.ini
 - `allow_url_include` deve estar desativado
 
 Versão do biblioteca da extensão intl:
+
 - ICU versão 49.0 ou superior
 - ICU Data versão 49.1 ou superior
 
@@ -47,14 +51,14 @@ Versão do biblioteca da extensão intl:
 
 ##### Instalação a partir de um arquivo #####
 
-Extraia o arquivo baixado do [yiiframework.com](http://www.yiiframework.com/download/) para um diretório `demo` diretamentamente para a raiz do servidor web.
+Clone o esse repositorio do [github.com](https://github.com/flavio-pessoa/demo) para um na raiz do servidor web.
 
-Executar arquivo database.sql no servidor de banco de dados.
+Execute o arquivo database.sql no servidor de banco de dados.
 
 Você pode acessar o aplicativo através do seguinte URL:
 
 ~~~
-http://{url_servidor}/demo/web/
+http://{url_servidor}/demo-php/
 ~~~
 
 ## Changelog ##
