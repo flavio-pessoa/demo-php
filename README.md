@@ -49,7 +49,13 @@ Versão do biblioteca da extensão intl:
 - ICU versão 49.0 ou superior
 - ICU Data versão 49.1 ou superior
 
-### INSTALAÇÃO ###
+### Tecnologias ###
+Foi utilizado no desenvolvimento do sistema:
+
+- PHP
+- [Yii PHP Framework](https://www.yiiframework.com)
+
+### Instalação ###
 
 ##### Instalação a partir de um arquivo #####
 
