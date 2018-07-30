@@ -1,0 +1,45 @@
+{
+	"name" : "demo",
+	"description" : "Projeto Demo",
+	"type" : "project",
+	"minimum-stability" : "stable",
+	"require" : {
+		"php" : ">=7.0.10",
+		"yiisoft/yii2" : "~2.0.14",
+		"yiisoft/yii2-bootstrap" : "~2.0.0",
+		"yiisoft/yii2-swiftmailer" : "~2.0.0"
+	},
+	"require-dev" : {
+		"yiisoft/yii2-debug" : "~2.0.0",
+		"yiisoft/yii2-gii" : "~2.0.0",
+		"yiisoft/yii2-faker" : "~2.0.0",
+		"codeception/base" : "^2.2.3",
+		"codeception/verify" : "~0.3.1",
+		"codeception/specify" : "~0.4.3",
+		"kartik-v/yii2-widgets": "3.4.0",
+		"kartik-v/yii2-password" : "1.5.3",
+		"kartik-v/yii2-money" : "1.2.2",
+		"bedezign/yii2-audit" : "1.1.1"
+	},
+	"config" : {
+		"process-timeout" : 1800,
+		"fxp-asset" : {
+			"enabled" : false
+		}
+	},
+	"scripts" : {		
+	},
+	"extra" : {		
+	},
+	"repositories" : [{
+			"type" : "composer",
+			"url" : "https://asset-packagist.org"
+		}
+	],
+	"authors" : [{
+			"name" : "Flavio Luis Lopes Pessoa",
+			"email" : "flavioluis.for@gmail.com",
+			"role" : "Administrador"
+		}
+	]
+}

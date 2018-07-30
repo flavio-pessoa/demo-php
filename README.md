@@ -1,3 +1,4 @@
+
 ## DEMO ##
 
 ### Descrição ###
@@ -19,6 +20,7 @@ O requisitos mínimos para rodar esse sistema é:
 
 - Servidor Apache na versão 2.4.23 com suporte ao PHP 7.0.10
 - Banco de Dados Mysql na versão 5.7.14
+- Composer na versão 1.6.5  
 
 As seguintes extensões devem estar carregadas no PHP:
 
@@ -51,15 +53,33 @@ Versão do biblioteca da extensão intl:
 
 ##### Instalação a partir de um arquivo #####
 
-Clone o esse repositorio do [github.com](https://github.com/flavio-pessoa/demo) para um na raiz do servidor web.
+- Clone o esse repositorio do [github.com](https://github.com/flavio-pessoa/demo) para um na raiz do servidor web.
+- Execute os arquivos de extensão .sql contidos na pasta db-files no servidor de banco de dados.
+- Rodar o comando `composer update`
 
-Execute o arquivo database.sql no servidor de banco de dados.
 
 Você pode acessar o aplicativo através do seguinte URL:
 
 ~~~
 http://{url_servidor}/demo-php/
 ~~~
+
+##### Acessar API #####
+
+Você pode acessar a API do aplicativo através das seguintes endereços:
+
+~~~
+http://{url_servidor}/demo-php/web/api/funcionario/
+~~~
+~~~
+http://{url_servidor}/demo-php/web/api/departamento/
+~~~
+
+No campo usuario, informar token do funcionario que esta tentanto acessar a API.
+
+- Usuario: `admin`
+- Token: `m_EX9P2rGiy7hZUHwyFAtgwrBxCJTI7R`
+
 
 ## Changelog ##
 
