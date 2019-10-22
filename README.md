@@ -70,6 +70,8 @@ Você pode acessar o aplicativo através do seguinte URL:
 http://{url_servidor}/demo-php/
 ~~~
 
+- Usuario: `admin`
+
 ##### Acessar API #####
 
 Você pode acessar a API do aplicativo através das seguintes endereços:
@@ -83,9 +85,12 @@ http://{url_servidor}/demo-php/web/api/departamento/
 
 No campo usuario, informar token do funcionario que esta tentanto acessar a API.
 
-- Usuario: `admin`
 - Token: `m_EX9P2rGiy7hZUHwyFAtgwrBxCJTI7R`
 
+## Criação de Tabelas ##
+~~~
+http://{url_servidor}/demo-php/web/gii
+~~~
 
 ## Changelog ##
 
