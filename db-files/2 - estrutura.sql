@@ -3,10 +3,11 @@
 /* Created on:     28/07/2017 16:51:45                          */
 /*==============================================================*/
 
-
-drop table if exists departamento;
+use demo_db;
 
 drop table if exists funcionario;
+
+drop table if exists departamento;
 
 /*==============================================================*/
 /* Table: departamento                                          */
